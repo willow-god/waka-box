@@ -82,3 +82,5 @@ function generateBarChart(percent, size) {
 (async () => {
   await main();
 })();
+
+// 添加一行注释
