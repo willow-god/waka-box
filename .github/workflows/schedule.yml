@@ -1,10 +1,7 @@
 name: Update gist with WakaTime stats
 on:
   schedule:
-    - cron: "0 0 * * *"      # 可修改 "*/10 * * * *" 每10分钟 action，方便调试
-  push:
-    - branches: 
-      - master
+    - cron: "0 0 * * *"
   # Manual triggers with workflow_dispatch
   workflow_dispatch:
 jobs:
